@@ -4,7 +4,9 @@
   "description": "This is an test project create REST API (Mongo,Express,Docker)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "dev": "../node_modules/nodemon/bin/nodemon.js ./bin/www --inspect=0.0.0.0:9229",
+    "test": "mocha --timeout 10000 --exit"
   },
   "keywords": [
     "nodejs",
@@ -28,5 +30,10 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongoose": "^6.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19"
   }
 }

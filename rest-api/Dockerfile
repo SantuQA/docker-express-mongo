@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:16-bullseye-slim
 
 WORKDIR /rest-api
 COPY package.json .
