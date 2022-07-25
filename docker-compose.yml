@@ -16,6 +16,8 @@ services:
     depends_on:
       - mongodb
     build: ./rest-api
+    volumes:
+      - ./rest-api:/rest-api
     restart: unless-stopped
     env_file: ./.env
     ports:
