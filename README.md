@@ -36,11 +36,11 @@ $ docker ps                                                                 //SH
 # TESTING WITH POSTMAN
 
 <!-- CREATE RESOURCE -->
-URL: http://localhost:6002/api/tutorials 
-METHOD: POST
-BODY:     
+- URL: http://localhost:6002/api/tutorials 
+- METHOD: POST
+- BODY:     
 ```json{ "title":"Test","description":"Test description","published":"true"}```
-RESPONSE:
+- RESPONSE:
 ```json
 { "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-27T05:53:09.392Z",
             "updatedAt": "2022-07-27T05:53:09.392Z","id": "62e0d2c5ffec4c3429d0cb12"}
