@@ -26,11 +26,12 @@ $ npm start
 ```
 
 # DOCKER COMPOSE
-
+```bash
 $ docker compose -f "docker-compose.yml" up -d --build                      //START
 $ docker compose -f "docker-compose.yml" down                               //STOP
 $ docker compose -f "docker-compose.yml" up -d --build                      //RESTART
 $ docker ps                                                                 //SHOW RUNNING PORT
+```
 
 # TESTING WITH POSTMAN
 
