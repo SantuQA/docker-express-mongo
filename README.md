@@ -53,7 +53,7 @@ $ docker ps                                                                 //SH
 - BODY: NULL
 - RESPONSE: 
 ```json
-[{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z",             "id": "62df9f895f19da9a1f603ada"}]
+[{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z","id": "62df9f895f19da9a1f603ada"}]
  ```
 <!-- GET RESOURCE BY ID -->             
 - URL:      http://localhost:6002/api/tutorials/62df9f895f19da9a1f603ada 
@@ -61,7 +61,7 @@ $ docker ps                                                                 //SH
 - BODY:     NULL
 - RESPONSE: 
 ```json
-[{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z",             "id": "62df9f895f19da9a1f603ada"}]
+[{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z","id": "62df9f895f19da9a1f603ada"}]
 ```
 <!-- GET RESOURCE BY USING FLAG -->   
 - URL:      http://localhost:6002/api/tutorials/published 
@@ -69,7 +69,7 @@ $ docker ps                                                                 //SH
 - BODY:     NULL
 - RESPONSE: 
 ```json
-[{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z",             "id": "62df9f895f19da9a1f603ada"}]  
+[{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z","id": "62df9f895f19da9a1f603ada"}]  
 ```
 <!-- DELETE RESOURCE BY ID  -->                     
 - URL:      http://localhost:6002/api/tutorials/62df9f895f19da9a1f603ada 
