@@ -17,11 +17,13 @@ This is a test project for making REST API using Docker, NodeJS, Express and Mon
 -   Postman
 
 # GETTING STARTED
-
+Clone the repository, install the dependencies.
+```bash
 $ git clone https://github.com/SantuQA/docker-express-mongo
 $ cd <working-directory>   
 $ npm install
 $ npm start
+```
 
 # DOCKER COMPOSE
 
