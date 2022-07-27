@@ -18,17 +18,17 @@ This is a test project for making REST API using Docker, NodeJS, Express and Mon
 
 # GETTING STARTED
 
-$   git clone https://github.com/SantuQA/docker-express-mongo
-$   cd <working-directory>   
-$   npm install
-$   npm start
+$ git clone https://github.com/SantuQA/docker-express-mongo
+$ cd <working-directory>   
+$ npm install
+$ npm start
 
 # DOCKER COMPOSE
 
-$   docker compose -f "docker-compose.yml" up -d --build                      //START
-$   docker compose -f "docker-compose.yml" down                               //STOP
-$   docker compose -f "docker-compose.yml" up -d --build                      //RESTART
-$   docker ps                                                                 //SHOW RUNNING PORT
+$ docker compose -f "docker-compose.yml" up -d --build                      //START
+$ docker compose -f "docker-compose.yml" down                               //STOP
+$ docker compose -f "docker-compose.yml" up -d --build                      //RESTART
+$ docker ps                                                                 //SHOW RUNNING PORT
 
 # TESTING WITH POSTMAN
 
