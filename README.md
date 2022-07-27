@@ -44,8 +44,7 @@ $ docker ps                                                                 //SH
 ```
 - RESPONSE:
 ```json
-{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-27T05:53:09.392Z",
-            "updatedAt": "2022-07-27T05:53:09.392Z","id": "62e0d2c5ffec4c3429d0cb12"}
+{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-27T05:53:09.392Z","updatedAt": "2022-07-27T05:53:09.392Z","id": "62e0d2c5ffec4c3429d0cb12"}
 ```
             
 <!-- GET RESOURCE -->            
@@ -54,9 +53,7 @@ $ docker ps                                                                 //SH
 - BODY: NULL
 - RESPONSE: 
 ```json
-[{ "title": "Test","description": "Test description","published": true,
-             "createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z",
-             "id": "62df9f895f19da9a1f603ada"}]
+[{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z",             "id": "62df9f895f19da9a1f603ada"}]
  ```
 <!-- GET RESOURCE BY ID -->             
 - URL:      http://localhost:6002/api/tutorials/62df9f895f19da9a1f603ada 
@@ -64,9 +61,7 @@ $ docker ps                                                                 //SH
 - BODY:     NULL
 - RESPONSE: 
 ```json
-[{ "title": "Test","description": "Test description","published": true,
-             "createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z",
-             "id": "62df9f895f19da9a1f603ada"}]
+[{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z",             "id": "62df9f895f19da9a1f603ada"}]
 ```
 <!-- GET RESOURCE BY USING FLAG -->   
 - URL:      http://localhost:6002/api/tutorials/published 
@@ -74,9 +69,7 @@ $ docker ps                                                                 //SH
 - BODY:     NULL
 - RESPONSE: 
 ```json
-[{ "title": "Test","description": "Test description","published": true,
-             "createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z",
-             "id": "62df9f895f19da9a1f603ada"}]  
+[{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z",             "id": "62df9f895f19da9a1f603ada"}]  
 ```
 <!-- DELETE RESOURCE BY ID  -->                     
 - URL:      http://localhost:6002/api/tutorials/62df9f895f19da9a1f603ada 
