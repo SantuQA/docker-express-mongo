@@ -56,7 +56,7 @@ $ docker ps                                                                 //SH
 [{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z","id": "62df9f895f19da9a1f603ada"}]
  ```
 <!-- GET RESOURCE BY ID -->             
-- URL:      http://localhost:6002/api/tutorials/62df9f895f19da9a1f603ada 
+- URL: http://localhost:6002/api/tutorials/62df9f895f19da9a1f603ada 
 - METHOD: GET
 - BODY:     NULL
 - RESPONSE: 
@@ -64,7 +64,7 @@ $ docker ps                                                                 //SH
 [{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z","id": "62df9f895f19da9a1f603ada"}]
 ```
 <!-- GET RESOURCE BY USING FLAG -->   
-- URL:      http://localhost:6002/api/tutorials/published 
+- URL: http://localhost:6002/api/tutorials/published 
 - METHOD: GET
 - BODY:     NULL
 - RESPONSE: 
@@ -72,7 +72,7 @@ $ docker ps                                                                 //SH
 [{ "title": "Test","description": "Test description","published": true,"createdAt": "2022-07-26T08:02:17.634Z","updatedAt": "2022-07-26T08:02:17.634Z","id": "62df9f895f19da9a1f603ada"}]  
 ```
 <!-- DELETE RESOURCE BY ID  -->                     
-- URL:      http://localhost:6002/api/tutorials/62df9f895f19da9a1f603ada 
+- URL: http://localhost:6002/api/tutorials/62df9f895f19da9a1f603ada 
 - METHOD: DELETE
 - BODY:     NULL
 - RESPONSE: 
